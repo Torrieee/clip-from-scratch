@@ -37,13 +37,14 @@ python train.py
 ```
 Make sure to customize the data/dataloader.py and config.yaml to match your dataset.
 
-🔍 Inference (Zero-shot matching)
+## Inference (Zero-shot matching)
 ```
 python inference.py --image_path demo.jpg --text "a cat", "a dog", "a man in suit"
 ```
 This will return which description best matches the image.
 
 ## Project Structure
+```
 clip-from-scratch/
 │
 ├── models/               # Encoders & CLIP model
@@ -54,6 +55,8 @@ clip-from-scratch/
 ├── config.yaml           # Model & training configuration
 ├── requirements.txt      # Dependencies
 └── README.md             # You're here!
+
+```
 ## Example Result
 Coming soon: demo with toy dataset or Flickr8k/COCO captions.
 
